@@ -9,7 +9,7 @@
 - ⚡ HTML5, CSS3 e JavaScript
 
 ### Observações:
-- O projeto conta com armazenamento via LocalStorage, geração de ID em cada uma das transações realizadas etc...
+- O projeto conta com armazenamento via LocalStorage, geração de ID em cada uma das transações realizadas, geração de notificações ao realizar transações ou refenrete a erros etc...
 
 #### Este projeto está hospedado aqui no Github.
 <p><a href="https://dlzzdev.github.io/financial-control/" target="_blank" rel="noopener">Clique aqui para visualizar!</p>
