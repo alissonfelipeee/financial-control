@@ -1,7 +1,5 @@
 # financial-control
 
-<img src="https://cdn.discordapp.com/attachments/753576544819085382/917920216720220220/unknown.png" alt="Imagem">
-
 > Este projeto foi reproduzido para praticar Javascript e obter novos conhecimentos da tecnologia.
 
 ### Tecnologias trabalhas neste projeto:
