@@ -122,6 +122,11 @@ input[type='number'] {
   margin-bottom: 40px;
 }
 
+.transactions-list {
+  max-height: 160px;
+  overflow-x: hidden;
+}
+
 .transactions li {
   background-color: rgb(39, 39, 39);
   box-shadow: var(--box-shadow);
@@ -134,11 +139,11 @@ input[type='number'] {
 }
 
 .transactions li.plus {
-  border-left: 3px solid #2ecc71;
+  border-top: 3px solid #2ecc71;
 }
 
 .transactions li.minus {
-  border-left: 3px solid #c0392b;
+  border-top: 3px solid #c0392b;
 }
 
 .delete-btn {
@@ -146,15 +151,14 @@ input[type='number'] {
   background-color: #e74c3c;
   border: 0;
   color: #fff;
-  font-size: 20px;
   line-height: 20px;
-  padding: 2px 5px;
+  border-radius: 2px;
   position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translate(100%, -50%);
+  top: 0;
+  left: 20px;
+  transform: translate(-100%, -50%);
   opacity: 0;
-  transition: opacity .5s ease;
+  transition: opacity 0.3s ease;
 }
 
 .transactions li:hover .delete-btn {
@@ -216,4 +220,17 @@ input[type='number'] {
   100% {
       width: 100%;
   }
+}
+
+::-webkit-scrollbar-track {
+  background-color: #F4F4F4;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dad7d7;
 }
