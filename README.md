@@ -9,8 +9,7 @@
 - ⚡ HTML5, CSS3 e JavaScript
 
 ### Observações:
-- O projeto original foi desenvolvido pelo <a href="https://www.youtube.com/c/RogerMelo" target="_blank" rel="noopener">Roger Melo</a>
-- Foram realizada diversas mudanças no projeto por completo.
+- O projeto conta com armazenamento via LocalStorage, geração de ID em cada uma das transações realizadas etc...
 
 #### Este projeto está hospedado aqui no Github.
 <p><a href="https://dlzzdev.github.io/financial-control/" target="_blank" rel="noopener">Clique aqui para visualizar!</p>
