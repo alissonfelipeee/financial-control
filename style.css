@@ -202,6 +202,19 @@ input[type='number'] {
   animation: progressbar 5s ease-in-out forwards;
 }
 
+::-webkit-scrollbar-track {
+  background-color: #F4F4F4;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dad7d7;
+}
+
 @keyframes slide-in {
   0% {
       transform: translateX(1000px);
@@ -220,17 +233,4 @@ input[type='number'] {
   100% {
       width: 100%;
   }
-}
-
-::-webkit-scrollbar-track {
-  background-color: #F4F4F4;
-}
-
-::-webkit-scrollbar {
-  width: 6px;
-  background: #F4F4F4;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #dad7d7;
 }
