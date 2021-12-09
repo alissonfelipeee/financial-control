@@ -10,6 +10,7 @@
 
 ### Observações:
 - O projeto conta com armazenamento via LocalStorage, geração de ID em cada uma das transações realizadas, geração de notificações ao realizar transações ou refenrete a erros etc...
+- Caso deseje adicionar uma receita utilize apenas os números(EX: 1000,50) ou caso queira adicionar uma despesa utilize o operador de subtração e o valor logo após(EX: -1000,50)
 
 #### Este projeto está hospedado aqui no Github.
 <p><a href="https://dlzzdev.github.io/financial-control/" target="_blank" rel="noopener">Clique aqui para visualizar!</p>
